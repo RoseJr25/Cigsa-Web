@@ -1,0 +1,35 @@
+[
+  {
+    "titulo": "Casa familiar en Panamá Oeste",
+    "slug": "casa-panama-oeste",
+    "operacion": "venta",
+    "tipo": "Casa",
+    "ubicacion": "Panamá Oeste",
+    "precio": "Desde $95,000",
+    "descripcion": "Proyecto residencial con excelente ubicación.",
+    "recamaras": "3",
+    "banos": "2"
+  },
+  {
+    "titulo": "Apartamento en Ciudad de Panamá",
+    "slug": "apartamento-ciudad-panama",
+    "operacion": "venta",
+    "tipo": "Apartamento",
+    "ubicacion": "Ciudad de Panamá",
+    "precio": "Consultar",
+    "descripcion": "Apartamento ideal para inversión o vivienda.",
+    "recamaras": "2",
+    "banos": "2"
+  },
+  {
+    "titulo": "Terreno para inversión",
+    "slug": "terreno-inversion-playa",
+    "operacion": "venta",
+    "tipo": "Terreno",
+    "ubicacion": "Playa",
+    "precio": "Consultar",
+    "descripcion": "Terreno para desarrollo o inversión a futuro.",
+    "recamaras": "-",
+    "banos": "-"
+  }
+]
