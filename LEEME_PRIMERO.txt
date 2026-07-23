@@ -1,0 +1,17 @@
+CIGSA - VERSIÓN FINAL APROBADA
+
+Incluye:
+- Página Contáctanos en diseño negro y dorado.
+- Información de la empresa a la izquierda.
+- Logo completo y legible en el centro.
+- Formulario a la derecha.
+- Teléfono y WhatsApp 6073-0712.
+- Correo info@cig-sa.org.
+- Banderas de 8 idiomas.
+- Menú y cambios solicitados por la jefa.
+- El resto del sitio se mantuvo sin modificaciones adicionales.
+
+Para abrir:
+1. Extraer el ZIP.
+2. Abrir la carpeta en Visual Studio Code.
+3. Abrir index.html con Live Server.

@@ -1,0 +1,9 @@
+CAMBIOS REALIZADOS
+
+- La etiqueta dorada ahora dice CIGSA.
+- El título principal quedó: Solución integral de principio a fin.
+- Se eliminó la repetición de CIGSA en el título.
+- Se agregaron iconos reconocibles de Instagram, Facebook, WhatsApp y TikTok debajo de los botones.
+- Se reemplazaron los símbolos de redes del encabezado por iconos SVG.
+- Se corrigió el enlace de WhatsApp a 6073-0712.
+- No se modificó ninguna otra parte del diseño.

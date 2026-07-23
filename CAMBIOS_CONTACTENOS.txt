@@ -1,0 +1,9 @@
+CAMBIOS REALIZADOS
+
+- Se creó la sección Contáctanos en tres columnas.
+- Izquierda: texto e información de CIGSA con iconos.
+- Centro: imagen oficial proporcionada por el usuario.
+- Derecha: formulario Nombre, Apellidos, Teléfono, Email, Mensaje, política de privacidad y Enviar.
+- Se agregaron banderas reales en SVG para 8 idiomas.
+- La bandera cambia cuando se selecciona otro idioma.
+- Se conservó el resto de la página.
