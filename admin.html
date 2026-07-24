@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>CIGSA | Panel Administrativo</title><link rel="stylesheet" href="css/style.css"/></head><body><div class="topbar"><div class="container topbar-inner"><div class="topbar-left"><a href="tel:+50760730712">&#128222; WhatsApp / Teléfono: (+507) 6073-0712</a><a href="mailto:info@cig-sa.org">✉ info@cig-sa.org</a></div><div class="topbar-right"><div class="socials" aria-label="Redes sociales">
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>CIGSA | Panel Administrativo</title><link rel="stylesheet" href="css/style.css"/><link rel="stylesheet" href="css/admin.css"/></head><body><div class="topbar"><div class="container topbar-inner"><div class="topbar-left"><a href="tel:+50760730712">&#128222; WhatsApp / Teléfono: (+507) 6073-0712</a><a href="mailto:info@cig-sa.org">✉ info@cig-sa.org</a></div><div class="topbar-right"><div class="socials" aria-label="Redes sociales">
 <a class="top-social instagram" href="#" target="_blank" title="Instagram" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.8" r="1.2" fill="currentColor"/></svg></a>
 <a class="top-social facebook" href="#" target="_blank" title="Facebook" aria-label="Facebook"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M14.2 8.1h3V4.2c-.5-.1-2.3-.2-4.3-.2-4.2 0-7 2.5-7 7.2v4H2v4.4h3.9V24h4.8v-4.4h4l.6-4.4h-4.6v-3.6c0-1.3.4-2.2 2.5-2.2z" transform="scale(.8) translate(3 0)"/></svg></a>
 <a class="top-social whatsapp" href="https://wa.me/50760730712" target="_blank" title="WhatsApp" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a9.8 9.8 0 0 0-8.4 14.8L2 22l5.4-1.5A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.2.9.9-3.1-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.9 1-.2.2-.3.2-.6.1-1.4-.7-2.3-1.3-3.3-2.9-.2-.3.2-.3.6-1.1.1-.2.1-.4 0-.6l-.8-2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.5 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.2.7 3 .6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.2-.3-.3-.5-.4z"/></svg></a>
@@ -50,7 +50,214 @@
 
   <div class="menu-item"><a href="vende-tu-propiedad.html">Vende tu Propiedad</a></div>
   <div class="menu-item"><a href="contacto.html">Contáctenos</a></div>
-  <div class="menu-item"><a href="admin.html">Admin</a></div>
-</nav></div></header><main><section class="page-hero"><div class="container"><h1>Panel Administrativo</h1><p>Vista privada demo para el equipo de CIGSA. No debe ser visible para clientes.</p></div></section><section><div class="container"><div class="panel"><h2>Panel Administrativo</h2><p>Vista privada demo para el equipo de CIGSA. No debe ser visible para clientes.</p><a class="btn btn-dark" href="contacto.html">Solicitar información</a></div></div></section></main><a class="back-top" href="#">↑</a><a class="whatsapp-float" href="https://wa.me/50760730712" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp" title="WhatsApp"><svg class="whatsapp-official-icon" viewBox="0 0 32 32" aria-hidden="true">
+</nav></div></header>
+<main class="cigsa-admin-page">
+
+  <section class="admin-login-section" id="adminLoginSection">
+    <div class="container">
+      <div class="admin-login-card">
+        <div class="admin-login-intro">
+          <span class="admin-eyebrow">ACCESO PRIVADO</span>
+          <h1>Panel Administrativo</h1>
+          <p>Acceso para vendedores autorizados de CIGSA.</p>
+          <div class="admin-login-note">
+            <strong>Versión demostrativa</strong>
+            <span>Por ahora, los cambios se guardan únicamente en este navegador.</span>
+          </div>
+
+          <div class="admin-demo-access">
+            <strong>Accesos de demostración</strong>
+            <div><span>Jefa:</span> jefa@cig-sa.org / CIGSA-Jefa</div>
+            <div><span>Rodolfo:</span> rodolfo@cig-sa.org / CIGSA-Rodolfo</div>
+            <div><span>Aaron:</span> aaron@cig-sa.org / CIGSA-Aaron</div>
+          </div>
+        </div>
+
+        <form class="admin-login-form" id="adminLoginForm">
+          <label>
+            Correo
+            <input type="email" id="adminEmail" placeholder="vendedor@cig-sa.org" required>
+          </label>
+
+          <label>
+            Contraseña
+            <input type="password" id="adminPassword" placeholder="••••••••" required>
+          </label>
+
+          <button class="btn btn-gold" type="submit">Ingresar</button>
+          <p class="admin-form-message" id="adminLoginMessage" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="admin-dashboard-section" id="adminDashboardSection" hidden>
+    <div class="container">
+
+      <div class="admin-dashboard-top">
+        <div>
+          <span class="admin-eyebrow">PANEL ADMIN</span>
+          <h1>Propiedades</h1>
+          <p id="adminAccessDescription">Agregue, edite y controle las propiedades publicadas.</p>
+          <div class="admin-current-user">
+            <span id="adminCurrentUser">Usuario</span>
+            <strong id="adminCurrentRole">Rol</strong>
+          </div>
+        </div>
+
+        <div class="admin-top-actions">
+          <label class="admin-seller-filter" id="adminSellerFilterWrap" hidden>
+            Ver vendedor
+            <select id="adminSellerFilter">
+              <option value="">Todos</option>
+              <option value="Rodolfo">Rodolfo</option>
+              <option value="Aaron">Aaron</option>
+            </select>
+          </label>
+          <button class="btn btn-gold" type="button" id="adminAddProperty">+ Agregar propiedad</button>
+          <button class="admin-link-button" type="button" id="adminLogout">Cerrar sesión</button>
+        </div>
+      </div>
+
+      <div class="admin-summary-grid">
+        <article class="admin-summary-card">
+          <span>Disponibles</span>
+          <strong id="adminAvailableCount">0</strong>
+        </article>
+
+        <article class="admin-summary-card">
+          <span>Reservadas</span>
+          <strong id="adminReservedCount">0</strong>
+        </article>
+
+        <article class="admin-summary-card">
+          <span>Vendidas</span>
+          <strong id="adminSoldCount">0</strong>
+        </article>
+      </div>
+
+      <section class="admin-properties-card">
+        <div class="admin-card-heading">
+          <div>
+            <span class="admin-eyebrow">LISTADO</span>
+            <h2>Propiedades registradas</h2>
+          </div>
+
+          <input class="admin-search" id="adminSearch" type="search" placeholder="Buscar propiedad">
+        </div>
+
+        <div class="admin-table-wrap">
+          <table class="admin-properties-table">
+            <thead>
+              <tr>
+                <th>Propiedad</th>
+                <th>Precio</th>
+                <th>Estado</th>
+                <th>Vendedor</th>
+                <th>Publicación</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="adminPropertiesBody"></tbody>
+          </table>
+        </div>
+
+        <div class="admin-empty-state" id="adminEmptyState" hidden>
+          <strong>No hay propiedades registradas.</strong>
+          <span>Use “Agregar propiedad” para crear la primera.</span>
+        </div>
+      </section>
+
+      <section class="admin-property-editor" id="adminPropertyEditor" hidden>
+        <div class="admin-editor-heading">
+          <div>
+            <span class="admin-eyebrow">PROPIEDAD</span>
+            <h2 id="adminEditorTitle">Agregar propiedad</h2>
+          </div>
+          <button class="admin-close-button" type="button" id="adminCloseEditor" aria-label="Cerrar">×</button>
+        </div>
+
+        <form id="adminPropertyForm">
+          <input type="hidden" id="adminPropertyId">
+
+          <div class="admin-form-grid">
+            <label class="admin-field-wide">
+              Nombre de la propiedad
+              <input type="text" id="adminPropertyName" placeholder="Ejemplo: Casa en Costa Verde" required>
+            </label>
+
+            <label>
+              Operación
+              <select id="adminPropertyOperation" required>
+                <option value="Venta">Venta</option>
+                <option value="Alquiler">Alquiler</option>
+              </select>
+            </label>
+
+            <label>
+              Tipo
+              <select id="adminPropertyType" required>
+                <option value="Casa">Casa</option>
+                <option value="Apartamento">Apartamento</option>
+                <option value="Terreno">Terreno</option>
+                <option value="Local">Local</option>
+                <option value="Oficina">Oficina</option>
+              </select>
+            </label>
+
+            <label>
+              Precio
+              <input type="number" id="adminPropertyPrice" min="0" step="0.01" placeholder="125000" required>
+            </label>
+
+            <label>
+              Ubicación
+              <input type="text" id="adminPropertyLocation" placeholder="Panamá Oeste" required>
+            </label>
+
+            <label>
+              Vendedor
+              <select id="adminPropertySeller" required>
+                <option value="Rodolfo">Rodolfo</option>
+                <option value="Aaron">Aaron</option>
+              </select>
+              <small id="adminSellerHelp"></small>
+            </label>
+
+            <label>
+              Estado
+              <select id="adminPropertyStatus" required>
+                <option value="Disponible">Disponible</option>
+                <option value="Reservada">Reservada</option>
+                <option value="Vendida">Vendida</option>
+              </select>
+            </label>
+
+            <label class="admin-field-wide">
+              Foto principal
+              <input type="file" id="adminPropertyImage" accept="image/png,image/jpeg,image/webp">
+              <small>Opcional. Para esta demostración se recomienda una imagen menor de 1 MB.</small>
+            </label>
+
+            <label class="admin-publish-check admin-field-wide">
+              <input type="checkbox" id="adminPropertyPublished" checked>
+              <span>Mostrar esta propiedad como publicada</span>
+            </label>
+          </div>
+
+          <div class="admin-editor-actions">
+            <button class="btn btn-gold" type="submit">Guardar propiedad</button>
+            <button class="admin-secondary-button" type="button" id="adminCancelEditor">Cancelar</button>
+          </div>
+
+          <p class="admin-form-message" id="adminPropertyMessage" aria-live="polite"></p>
+        </form>
+      </section>
+
+    </div>
+  </section>
+
+</main>
+<a class="back-top" href="#">↑</a><a class="whatsapp-float" href="https://wa.me/50760730712" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp" title="WhatsApp"><svg class="whatsapp-official-icon" viewBox="0 0 32 32" aria-hidden="true">
   <path fill="#ffffff" d="M16.02 4.8a10.9 10.9 0 0 0-9.31 16.56L5.2 26.9l5.68-1.49a10.92 10.92 0 1 0 5.14-20.61Zm0 19.82c-1.65 0-3.27-.45-4.68-1.31l-.34-.2-3.37.88.9-3.28-.22-.34a8.88 8.88 0 1 1 7.71 4.25Zm4.87-6.65c-.27-.14-1.58-.78-1.82-.87-.24-.09-.42-.14-.6.14-.18.27-.69.87-.85 1.05-.16.18-.31.2-.58.07-.27-.14-1.13-.42-2.16-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.04-.34-.02-.47-.07-.14-.6-1.45-.82-1.98-.22-.52-.44-.45-.6-.46h-.51c-.18 0-.47.07-.71.34-.24.27-.93.91-.93 2.22s.95 2.58 1.08 2.76c.13.18 1.87 2.86 4.53 4.01.63.27 1.12.44 1.5.56.63.2 1.2.17 1.65.1.5-.07 1.58-.65 1.8-1.27.22-.62.22-1.16.16-1.27-.07-.11-.24-.18-.51-.31Z"/>
-</svg></a><footer><div class="container">© <span id="year"></span> CIGSA. Todos los derechos reservados.<p>Alquiler · Venta · Proyectos · CIGSA Legal · Blog · Portal Cliente</p></div></footer><script src="js/app.js"></script></body></html>
+</svg></a><footer><div class="container">© <span id="year"></span> CIGSA. Todos los derechos reservados.<p>Alquiler · Venta · Proyectos · CIGSA Legal · Blog · Portal Cliente</p></div></footer><script src="js/app.js"></script><script src="js/admin.js"></script></body></html>

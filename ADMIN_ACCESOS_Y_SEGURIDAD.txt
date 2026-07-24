@@ -1,0 +1,28 @@
+PANEL ADMIN CIGSA - ACCESOS DE DEMOSTRACIÓN
+
+Jefa / Administradora
+Correo: jefa@cig-sa.org
+Contraseña: CIGSA-Jefa
+Permisos: ve todas las propiedades, filtra por vendedor, crea, edita, publica,
+oculta y archiva cualquier propiedad.
+
+Vendedor Rodolfo
+Correo: rodolfo@cig-sa.org
+Contraseña: CIGSA-Rodolfo
+Permisos: solo ve y modifica propiedades asignadas a Rodolfo.
+
+Vendedor Aaron
+Correo: aaron@cig-sa.org
+Contraseña: CIGSA-Aaron
+Permisos: solo ve y modifica propiedades asignadas a Aaron.
+
+CÓMO SE OCULTÓ EL ADMIN
+El enlace “Admin” fue eliminado del menú público.
+El acceso se realiza escribiendo directamente admin.html después del dominio:
+https://tudominio.com/admin.html
+
+IMPORTANTE
+Esta separación funciona como demostración visual en una página estática.
+Las cuentas y contraseñas están dentro del JavaScript y no ofrecen seguridad real.
+Para usarlo con clientes y vendedores reales se requiere autenticación en servidor
+(Supabase u otro servicio), permisos por usuario y conexión segura con Notion.
