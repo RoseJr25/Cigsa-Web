@@ -25,4 +25,4 @@ IMPORTANTE
 Esta separación funciona como demostración visual en una página estática.
 Las cuentas y contraseñas están dentro del JavaScript y no ofrecen seguridad real.
 Para usarlo con clientes y vendedores reales se requiere autenticación en servidor
-(Supabase u otro servicio), permisos por usuario y conexión segura con Notion.
+(Supabase u otro servicio), permisos por usuario y conexión segura con la plataforma interna de CIGSA.

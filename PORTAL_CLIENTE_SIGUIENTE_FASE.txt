@@ -14,13 +14,13 @@ Esta versión incluye:
 - Diseño adaptable a computadora y celular.
 
 IMPORTANTE:
-Actualmente los datos son demostrativos. Todavía no está conectado a Notion.
+Actualmente los datos son demostrativos. Todavía no está conectado a la plataforma interna de CIGSA.
 
 PARA LA CONEXIÓN REAL SE NECESITARÁ:
-1. Preparar en Notion los campos Portal Activo, Correo Portal, Código Cliente,
+1. Preparar en la plataforma interna de CIGSA los campos Portal Activo, Correo Portal, Código Cliente,
    Estado Portal, Progreso, Próximo Paso, Próxima Cita y Observación Cliente.
 2. Crear un inicio de sesión seguro con Supabase o un sistema equivalente.
-3. Crear un servidor seguro en Vercel para consultar Notion.
-4. Guardar el token de Notion como variable de entorno.
+3. Crear un servidor seguro en Vercel para consultar la plataforma interna de CIGSA.
+4. Guardar el token de la plataforma interna de CIGSA como variable de entorno.
 5. Mostrar solamente la información del cliente que inició sesión.
 6. Vincular documentos privados almacenados en OneDrive.

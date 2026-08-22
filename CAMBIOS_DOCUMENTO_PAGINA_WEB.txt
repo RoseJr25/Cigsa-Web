@@ -1,0 +1,13 @@
+Cambios aplicados según Página Web.doc:
+- Ajuste de espacio del hero principal.
+- Logo + frase en el hero y botones CIGSA Bienes Raíces / CIGSA Legal / Agendar cita.
+- Nuevo listado de Servicios Legales y contenido detallado.
+- Hipervínculo “Agende su cita” en gestiones marcadas con asterisco.
+- Administraciones agregado a Bienes Raíces.
+- Contacto: tipografía uniforme, se quitó el contenedor circular grande y “Contáctenos”.
+- CIGSA: Quiénes Somos, Misión, Visión, Valores y perfil de Vanessa Herrera.
+- “Vende tu Propiedad” reemplazado en menú por “Agenda tu Cita CIGSA”.
+- Agenda con ubicación, Google Maps/Waze, opciones de pago, selector de fecha/hora y confirmación.
+- En el bloque “Seguimiento en línea” se cambió el texto para que no mencione la plataforma interna de CIGSA.
+
+Pendiente: el documento solicita una foto de la oficina, pero no venía incluida. Se dejó el espacio preparado para colocar la foto real sin inventar una imagen.

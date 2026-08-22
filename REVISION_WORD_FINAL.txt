@@ -1,0 +1,14 @@
+REVISIÓN FINAL SEGÚN EL DOCUMENTO “Página Web”
+
+Cambios aplicados en esta versión:
+- Menú Cigsa: “Misión, visión y valores” en ese orden.
+- Portada: botones en orden Cigsa Legal, Cigsa Bienes Raíces y Agendar cita.
+- Portada: vista previa legal actualizada con solo cuatro servicios representativos.
+- Los cuatro enlaces legales llevan a las secciones reales dentro de legal.html.
+- Eliminada la sección “Bancos, promotoras y aliados”.
+- Eliminada la sección “Preguntas frecuentes / Dudas comunes”.
+- Se mantienen los cambios anteriores del documento: servicios legales completos y separados, agenda, contacto, misión/visión/valores, eliminación de referencias a Notion, panel y portal.
+
+Pendiente externo (no depende solo del HTML):
+- Foto real de la oficina, si se desea sustituir el espacio actual.
+- Integración de calendario en tiempo real y envío automático de confirmación requiere un servicio de agenda/calendario.

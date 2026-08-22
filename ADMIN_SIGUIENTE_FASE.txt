@@ -12,12 +12,12 @@ Esta versión incluye:
 - Guardado local en el navegador.
 
 IMPORTANTE:
-Todavía no es un sistema seguro ni está conectado a Notion.
+Todavía no es un sistema seguro ni está conectado a la plataforma interna de CIGSA.
 Los datos se almacenan únicamente en el navegador mediante localStorage.
 
 La siguiente fase requiere:
 - Inicio de sesión real y permisos por vendedor.
 - Servidor seguro.
-- Conexión con Notion.
+- Conexión con la plataforma interna de CIGSA.
 - Almacenamiento externo para fotografías.
 - Publicación automática en la página pública.
