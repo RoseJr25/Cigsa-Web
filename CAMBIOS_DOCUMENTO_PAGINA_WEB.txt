@@ -6,7 +6,7 @@ Cambios aplicados según Página Web.doc:
 - Administraciones agregado a Bienes Raíces.
 - Contacto: tipografía uniforme, se quitó el contenedor circular grande y “Contáctenos”.
 - CIGSA: Quiénes Somos, Misión, Visión, Valores y perfil de Vanessa Herrera.
-- “Vende tu Propiedad” reemplazado en menú por “Agenda tu Cita CIGSA”.
+- “Vende tu Propiedad” reemplazado en menú por “Agenda tu Cita”.
 - Agenda con ubicación, Google Maps/Waze, opciones de pago, selector de fecha/hora y confirmación.
 - En el bloque “Seguimiento en línea” se cambió el texto para que no mencione la plataforma interna de CIGSA.
 
