@@ -2,3 +2,25 @@
 .agenda-cigsa-page{background:#f5f6f8}.agenda-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;align-items:start}.agenda-left{display:grid;gap:20px}.agenda-office-photo{min-height:280px;border-radius:20px;background:linear-gradient(135deg,#0b1f33,#162f48);display:grid;place-items:center;color:#d5b46d;border:1px solid rgba(198,161,91,.35);font-weight:900;letter-spacing:.5px}.agenda-info-card,.agenda-calendar-card{background:#fff;border:1px solid #e3e8ed;border-radius:20px;padding:26px;box-shadow:0 12px 34px rgba(11,31,51,.06)}.agenda-kicker{color:#a97d28;font-size:12px;font-weight:900;letter-spacing:1px}.agenda-info-card h2,.agenda-calendar-card h2{color:#0b1f33;margin:5px 0 14px}.agenda-info-card p{color:#65737f;line-height:1.65}.agenda-map-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.agenda-payment-row{display:flex;gap:13px;align-items:flex-start;padding:13px 0;border-bottom:1px solid #edf1f4}.agenda-payment-row:last-child{border-bottom:0}.agenda-payment-icon{font-size:24px}.agenda-payment-row strong{color:#263746}.agenda-payment-row p{margin-top:2px}.agenda-calendar-card form{display:grid;gap:16px}.agenda-calendar-card label{display:grid;gap:7px;color:#263746;font-weight:800}.agenda-calendar-card input,.agenda-calendar-card select,.agenda-calendar-card textarea{width:100%;border:1px solid #d7dfe6;background:#fbfcfd;border-radius:12px;padding:13px 14px;color:#263746}.agenda-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.agenda-submit{width:100%;margin-top:4px}.agenda-confirmation{margin-top:18px;padding:18px;border-radius:14px;background:#e8f7ee;color:#22613d}.agenda-confirmation strong{display:block;margin-bottom:4px}@media(max-width:850px){.agenda-layout{grid-template-columns:1fr}.agenda-form-grid{grid-template-columns:1fr}}
 
 .agenda-office-brand img{display:block;margin:auto}
+
+/* Optimización móvil de Agenda */
+@media(max-width:850px){
+  .agenda-layout{gap:18px}
+  .agenda-office-photo{min-height:210px}
+  .agenda-info-card,.agenda-calendar-card{padding:21px;border-radius:17px}
+  .agenda-map-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+  .agenda-map-actions .btn{width:100%}
+}
+@media(max-width:600px){
+  .agenda-layout{gap:14px}
+  .agenda-info-card,.agenda-calendar-card{padding:18px}
+  .agenda-office-photo{min-height:180px;border-radius:17px}
+  .agenda-office-brand{padding:22px!important}
+  .agenda-office-brand img{width:min(190px,65%)}
+  .agenda-info-card h2,.agenda-calendar-card h2{font-size:24px;line-height:1.2}
+  .agenda-form-grid{grid-template-columns:1fr;gap:11px}
+  .agenda-calendar-card form{gap:13px}
+  .agenda-map-actions{grid-template-columns:1fr}
+  .agenda-payment-row{gap:10px}
+  .agenda-submit{min-height:48px}
+}

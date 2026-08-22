@@ -502,3 +502,62 @@
   background:#eef2f5;
   cursor:not-allowed;
 }
+
+/* Optimización móvil del panel administrativo */
+@media(max-width:800px){
+  .admin-login-section,.admin-dashboard-section{padding:42px 0 62px}
+  .admin-login-card{border-radius:20px}
+  .admin-login-intro,.admin-login-form{padding:24px}
+  .admin-login-intro h1,.admin-dashboard-top h1{font-size:36px}
+  .admin-dashboard-top{gap:16px}
+  .admin-top-actions{width:100%;display:grid;grid-template-columns:1fr;align-items:stretch}
+  .admin-top-actions .btn,.admin-link-button{width:100%}
+  .admin-seller-filter select{width:100%}
+  .admin-summary-grid{grid-template-columns:repeat(3,1fr);gap:9px}
+  .admin-summary-card{padding:15px}
+  .admin-summary-card strong{font-size:27px}
+  .admin-properties-card,.admin-property-editor{padding:18px;border-radius:18px}
+  .admin-card-heading{gap:12px}
+  .admin-search{width:100%}
+  .admin-property-editor{margin-top:16px}
+}
+
+@media(max-width:650px){
+  .admin-login-intro,.admin-login-form{padding:21px}
+  .admin-login-intro h1,.admin-dashboard-top h1{font-size:32px}
+  .admin-summary-grid{grid-template-columns:1fr 1fr 1fr}
+  .admin-summary-card{padding:12px;text-align:center}
+  .admin-summary-card span{font-size:11px}
+  .admin-summary-card strong{font-size:24px}
+
+  /* Tabla convertida en tarjetas para evitar scroll horizontal */
+  .admin-table-wrap{overflow:visible}
+  .admin-properties-table{min-width:0;width:100%;display:block}
+  .admin-properties-table thead{display:none}
+  .admin-properties-table tbody{display:grid;gap:12px}
+  .admin-properties-table tr{display:grid;background:#fff;border:1px solid #e3e8ed;border-radius:15px;padding:14px;box-shadow:0 7px 20px rgba(11,31,51,.04)}
+  .admin-properties-table td{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid #edf1f4;text-align:right}
+  .admin-properties-table td:last-child{border-bottom:0;display:block;padding-bottom:0}
+  .admin-properties-table td::before{font-size:11px;font-weight:900;color:#77838e;text-transform:uppercase;letter-spacing:.4px;text-align:left;flex:0 0 auto}
+  .admin-properties-table td:nth-child(1){display:block;text-align:left;padding-top:0}
+  .admin-properties-table td:nth-child(1)::before{display:none}
+  .admin-properties-table td:nth-child(2)::before{content:'Precio'}
+  .admin-properties-table td:nth-child(3)::before{content:'Estado'}
+  .admin-properties-table td:nth-child(4)::before{content:'Vendedor'}
+  .admin-properties-table td:nth-child(5)::before{content:'Publicación'}
+  .admin-properties-table td:nth-child(6)::before{content:'Acciones';display:block;margin-bottom:8px}
+  .admin-property-name{min-width:0;width:100%}
+  .admin-row-actions{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+  .admin-row-actions button{padding:9px 6px}
+  .admin-form-grid{grid-template-columns:1fr}
+  .admin-field-wide{grid-column:auto}
+  .admin-editor-actions{display:grid;grid-template-columns:1fr}
+  .admin-editor-actions .btn,.admin-secondary-button{width:100%}
+}
+
+@media(max-width:420px){
+  .admin-summary-grid{grid-template-columns:1fr}
+  .admin-summary-card{text-align:left;display:flex;justify-content:space-between;align-items:center}
+  .admin-summary-card strong{margin-top:0}
+  .admin-row-actions{grid-template-columns:1fr}
+}

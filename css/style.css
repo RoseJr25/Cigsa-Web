@@ -991,3 +991,229 @@ footer{background:linear-gradient(135deg,var(--dark),var(--navy));color:white;te
 
 /* Home legal preview */
 .legal-home-more{display:flex;justify-content:center;margin-top:30px}
+
+/* =========================================================
+   OPTIMIZACIÓN RESPONSIVE MÓVIL / TABLET - 2026-08
+   No modifica la presentación de escritorio.
+   ========================================================= */
+@media (max-width: 900px){
+  html,body{max-width:100%;overflow-x:hidden}
+  body{-webkit-text-size-adjust:100%}
+  img,svg,video,iframe{max-width:100%}
+  .container{width:min(100% - 30px,1180px)}
+
+  /* Barra superior */
+  .topbar-inner{padding:8px 0;gap:8px}
+  .topbar-left{gap:8px 14px;line-height:1.35}
+  .topbar-right{margin-left:auto;gap:10px}
+  .socials{gap:7px}
+  .socials a{width:30px;height:30px}
+  .language-flags{min-width:0;gap:5px}
+  .language-flags .language-select{min-width:98px;padding:6px 8px;font-size:12px}
+
+  /* Encabezado y navegación */
+  header{backdrop-filter:blur(12px)}
+  .nav{min-height:68px;padding:9px 0;gap:10px;position:relative}
+  .brand-with-official-logo{min-width:0;gap:8px;max-width:calc(100% - 58px)}
+  .brand-official-logo{width:52px;height:43px;padding:2px}
+  .brand-with-official-logo .brand-name{font-size:17px;line-height:1}
+  .brand-with-official-logo small{font-size:9px;line-height:1.15;margin-top:3px}
+  .mobile-btn{width:44px;height:44px;display:grid;place-items:center;flex:0 0 auto;border-radius:10px;color:var(--navy);cursor:pointer}
+  .mobile-btn:active{background:#f2f4f6}
+  .menu{z-index:99;top:100%;left:-4%;right:-4%;width:auto;max-height:calc(100vh - 76px);overflow-y:auto;overscroll-behavior:contain;padding:10px 15px 18px;background:rgba(255,255,255,.99);box-shadow:0 18px 35px rgba(0,0,0,.12);gap:0}
+  .menu-item{padding:0;border-bottom:1px solid var(--line)}
+  .menu-item>a{display:block;padding:13px 4px;font-size:14px}
+  .dropdown{position:static;display:grid!important;min-width:0;max-height:none!important;overflow:visible!important;padding:0 0 9px 13px;border:0;border-radius:0;box-shadow:none;background:transparent}
+  .dropdown a{padding:7px 9px;font-size:12px;color:#53616d;border-left:2px solid #e8edf1;border-radius:0}
+  .dropdown a:hover{background:#f7f8fa;border-left-color:var(--gold)}
+
+  /* Tipografía y espacios globales */
+  section{padding:54px 0}
+  .page-hero{padding:58px 0}
+  .page-hero h1{font-size:clamp(34px,9vw,52px);letter-spacing:-.8px;overflow-wrap:anywhere}
+  .page-hero p{font-size:16px;line-height:1.65}
+  .section-title{margin-bottom:28px}
+  .section-title h2{font-size:clamp(29px,8vw,42px)}
+  .section-title p{font-size:15px;line-height:1.65}
+
+  /* Portada */
+  .hero{min-height:auto;padding:62px 0 64px;background-position:center center}
+  .hero-content{max-width:100%;padding:0}
+  .hero h1{font-size:clamp(42px,11vw,66px);line-height:1.01;letter-spacing:-1.4px;max-width:100%;overflow-wrap:break-word}
+  .hero h2{font-size:clamp(19px,5vw,27px);line-height:1.3}
+  .hero p{font-size:17px;line-height:1.65;max-width:100%;margin-bottom:24px}
+  .hero-label{margin-bottom:15px}
+  .hero-label-below{margin:3px 0 18px;max-width:100%}
+  .actions{gap:10px}
+  .btn{min-height:46px;padding:11px 18px}
+  .search-box{margin-top:-28px;padding:17px;border-radius:20px}
+
+  /* Contenedores y tarjetas */
+  .card,.panel,.legal-service-card,.testimonial{padding:22px}
+  .premium-banner{padding:30px;border-radius:24px}
+  .premium-banner h2{font-size:clamp(29px,8vw,42px)}
+  .grid-2,.grid-3,.grid-4,.contact-grid,.legal-layout{gap:16px}
+
+  /* Contacto */
+  .contact-dark-page{padding:52px 0 38px;min-height:0}
+  .contact-dark-grid{gap:30px}
+  .contact-dark-intro{font-size:21px;line-height:1.5;margin-bottom:28px}
+  .contact-dark-list{gap:18px}
+  .contact-dark-item{grid-template-columns:44px 1fr;gap:13px}
+  .contact-dark-icon{width:42px;height:42px}
+  .contact-dark-item strong{font-size:16px}
+  .contact-dark-item a{font-size:16px;overflow-wrap:anywhere}
+  .contact-dark-item span{font-size:15px;overflow-wrap:anywhere}
+  .contact-dark-form-wrap h1{font-size:38px;margin-bottom:22px}
+  .contact-dark-fields{gap:14px}
+  .contact-dark-fields input,.contact-dark-fields textarea{padding:14px 15px;font-size:16px}
+  .contact-dark-fields textarea{min-height:155px}
+  .contact-dark-logo-circle img{width:min(72vw,320px)}
+
+  /* Portal cliente */
+  .client-portal-hero{padding:54px 0}
+  .client-portal-hero-inner{gap:22px}
+  .client-portal-hero h1{font-size:clamp(36px,9vw,52px)}
+  .client-portal-hero p{font-size:16px}
+  .client-portal-content{padding:38px 0 62px}
+  .portal-demo-notice{align-items:flex-start;flex-direction:column;gap:5px;padding:14px}
+  .portal-demo-notice strong{white-space:normal}
+  .portal-login-card{border-radius:20px}
+  .portal-login-copy,.portal-login-form{padding:26px}
+  .portal-login-copy h2{font-size:30px}
+  .portal-dashboard-header,.portal-section-card{padding:20px;border-radius:17px}
+  .portal-summary-grid{gap:12px}
+  .portal-summary-card{padding:18px}
+  .portal-main-grid{gap:16px}
+  .portal-contact-actions{width:100%}
+
+  /* Servicios legales */
+  .legal-service-index{padding:40px 0 12px}
+  .legal-index-grid{gap:9px}
+  .legal-index-card{padding:12px;gap:9px}
+  .legal-index-card span{width:31px;height:31px}
+  .legal-index-card strong{font-size:12.5px}
+  .legal-premium-list{gap:17px}
+  .legal-premium-card{border-radius:18px}
+  .legal-premium-card-head{gap:12px}
+  .legal-card-number{width:44px;height:44px;border-radius:12px}
+  .legal-premium-card-head h2{font-size:24px;line-height:1.2}
+  .legal-card-description{margin:15px 0;font-size:15px}
+  .legal-service-row{padding:10px 11px;font-size:14px}
+  .legal-card-actions{justify-content:stretch}
+  .legal-card-agenda{width:100%}
+
+  /* Misión, visión y valores */
+  .cigsa-story-section{padding:44px 0 62px}
+  .cigsa-story-card,.cigsa-partner-premium{padding:24px;gap:20px;border-radius:18px}
+  .cigsa-story-card h2,.cigsa-partner-title h2{font-size:27px}
+  .cigsa-purpose-grid{gap:14px;margin-bottom:38px}
+  .cigsa-purpose-card{min-height:0;padding:25px;border-radius:18px}
+  .cigsa-purpose-card h2{font-size:29px}
+  .cigsa-purpose-letter{font-size:110px}
+  .cigsa-values-section{margin-bottom:38px}
+  .cigsa-value-card{padding:20px}
+  .cigsa-bottom-card{padding:21px}
+
+  /* Botones flotantes */
+  .whatsapp-float{right:14px;bottom:14px;width:54px;height:54px}
+  .back-top{right:18px;bottom:78px;width:42px;height:42px}
+
+  footer{padding:26px 0;font-size:14px}
+  footer p{line-height:1.55}
+}
+
+@media (max-width: 600px){
+  .container{width:min(100% - 24px,1180px)}
+
+  /* Superior más limpio en teléfonos */
+  .topbar-inner{align-items:flex-start}
+  .topbar-left{width:100%;display:grid;grid-template-columns:1fr;gap:3px;font-size:11px}
+  .topbar-right{width:100%;justify-content:space-between;margin-left:0}
+  .socials a{width:28px;height:28px}
+  .language-flags .current-flag{width:22px;height:15px}
+  .language-flags .language-select{font-size:11px;min-width:92px}
+
+  .nav{min-height:62px}
+  .brand-official-logo{width:45px;height:38px}
+  .brand-with-official-logo .brand-name{font-size:16px}
+  .brand-with-official-logo small{font-size:8.5px}
+  .mobile-btn{width:40px;height:40px;font-size:27px}
+
+  section{padding:44px 0}
+  .page-hero{padding:48px 0}
+  .page-hero h1{font-size:clamp(32px,10vw,44px)}
+
+  /* Hero móvil */
+  .hero{padding:48px 0 54px;background-position:58% center}
+  .hero h1{font-size:clamp(37px,11.5vw,52px);line-height:1.02;letter-spacing:-1px}
+  .hero p{font-size:16px;line-height:1.58}
+  .hero-label{font-size:12px;padding:7px 11px}
+  .actions{display:grid;grid-template-columns:1fr;width:100%}
+  .actions .btn{width:100%}
+  .search-box{margin-top:-18px;padding:14px}
+  .search-grid{gap:9px}
+  select,input,textarea{font-size:16px}
+
+  /* Las tarjetas pasan a una columna */
+  .grid-2,.grid-3,.grid-4,.stats-grid,.search-grid,.form-grid{grid-template-columns:1fr}
+  .card,.panel,.legal-service-card,.testimonial{padding:20px;border-radius:18px}
+  .property-img,.blog-img{height:175px}
+
+  /* Servicios legales */
+  .legal-index-grid{grid-template-columns:1fr}
+  .legal-index-card{min-height:54px}
+  .legal-premium-card{padding:18px}
+  .legal-premium-card-head{align-items:center}
+  .legal-premium-card-head h2{font-size:22px}
+  .legal-service-rows{grid-template-columns:1fr}
+  .legal-final-cta{padding:22px}
+  .legal-final-cta .btn{width:100%}
+
+  /* Cigsa */
+  .cigsa-story-card,.cigsa-partner-premium{padding:20px}
+  .cigsa-purpose-card{padding:22px}
+  .cigsa-purpose-card h2{font-size:27px}
+  .cigsa-values-grid,.cigsa-bottom-links{grid-template-columns:1fr}
+
+  /* Contacto */
+  .contact-dark-page{padding-top:42px}
+  .contact-dark-intro{font-size:18px}
+  .contact-dark-form-wrap h1{font-size:34px;text-align:left}
+  .contact-dark-logo-circle{padding:0}
+  .contact-dark-logo-circle img{width:min(76vw,290px)}
+  .contact-dark-submit-row button{width:100%}
+  .contact-dark-privacy{font-size:12px}
+
+  /* Portal */
+  .client-portal-hero{padding:45px 0}
+  .client-portal-hero h1{font-size:34px}
+  .client-portal-security{padding:15px;border-radius:14px}
+  .portal-login-copy,.portal-login-form{padding:21px}
+  .portal-login-copy h2{font-size:28px}
+  .portal-dashboard-header,.portal-section-card{padding:17px}
+  .portal-document-item{grid-template-columns:34px minmax(0,1fr)}
+  .portal-document-item .portal-status{grid-column:2}
+  .portal-invoice-row{display:grid;grid-template-columns:1fr;gap:8px}
+  .portal-invoice-amount{text-align:left;justify-items:start}
+  .portal-contact-actions{display:grid;grid-template-columns:1fr}
+  .portal-contact-actions .btn{width:100%}
+
+  /* Secciones simples */
+  .premium-banner{padding:24px}
+  .premium-banner .actions{width:100%}
+  .mini-link{margin-top:13px}
+
+  /* Evitar que textos largos causen desplazamiento */
+  h1,h2,h3,p,a,span,strong,small,label{overflow-wrap:anywhere}
+}
+
+@media (max-width: 360px){
+  .container{width:min(100% - 18px,1180px)}
+  .brand-copy small{display:none}
+  .brand-with-official-logo{gap:6px}
+  .hero h1{font-size:35px}
+  .topbar-right{gap:6px}
+  .socials{gap:5px}
+  .language-flags .language-select{min-width:84px;padding-inline:6px}
+}
