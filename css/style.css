@@ -1987,3 +1987,43 @@ main .cigsa-partner p {
     font-size:20px !important;
   }
 }
+
+
+/* ===== FOTO VANESSA HERRERA ===== */
+.cigsa-partner-title{
+  align-self:start;
+}
+.cigsa-partner-photo{
+  display:block;
+  width:100%;
+  max-width:360px;
+  margin-top:22px;
+  border-radius:18px;
+  object-fit:cover;
+  box-shadow:0 14px 34px rgba(0,0,0,.12);
+}
+.cigsa-partner-copy p{
+  text-align:justify !important;
+  text-justify:inter-word;
+}
+
+@media(max-width:900px){
+  .cigsa-partner-photo{
+    max-width:520px;
+    margin:18px auto 4px;
+  }
+}
+
+@media(max-width:650px){
+  .cigsa-partner-title{
+    text-align:center !important;
+  }
+  .cigsa-partner-photo{
+    width:100%;
+    max-width:100%;
+    border-radius:16px;
+  }
+  .cigsa-partner-copy p{
+    text-align:justify !important;
+  }
+}
