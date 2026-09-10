@@ -1217,3 +1217,251 @@ footer{background:linear-gradient(135deg,var(--dark),var(--navy));color:white;te
   .socials{gap:5px}
   .language-flags .language-select{min-width:84px;padding-inline:6px}
 }
+
+
+/* ===== SEGUNDA PARTE - AJUSTES SOLICITADOS ===== */
+body{overflow-x:hidden}
+.topbar{font-size:11px}.topbar-inner{padding:7px 0}
+.hero-content{margin-left:auto;margin-right:auto;text-align:center}.hero-content .actions{justify-content:center}.hero p{margin-left:auto;margin-right:auto}
+.legal-dropdown-general{min-width:520px;grid-template-columns:1fr 1fr;gap:2px}.menu-item:hover .legal-dropdown-general{display:grid}
+.cigsa-story-card,.cigsa-purpose-card,.cigsa-values-section,.cigsa-partner-copy{text-align:justify}.cigsa-purpose-card h2,.cigsa-values-section h2{text-align:left}
+.vanessa-photo-slot{width:170px;margin:18px 0 24px;display:grid;justify-items:center;gap:8px}.vanessa-photo-slot>span{width:132px;height:132px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#0b1f33,#142f49);color:var(--gold);font-size:34px;font-weight:900;border:3px solid rgba(198,161,91,.7);box-shadow:0 12px 30px rgba(11,31,51,.16)}.vanessa-photo-slot small{color:#77828c;font-size:12px;text-align:center}
+.cigsa-bottom-links{grid-template-columns:1fr;max-width:700px;margin-left:auto;margin-right:auto}
+.legal-card-note-link{margin-top:16px}.legal-card-note-link a{font-weight:800;color:var(--gold);text-decoration:underline}
+.portal-code-help{margin-top:4px;padding:14px;border:1px solid #e0e5ea;border-radius:13px;background:#f8fafb}.portal-code-help strong,.portal-code-help p{display:block}.portal-code-help p{font-size:13px;color:#6f7c87;margin:3px 0 10px}.portal-code-help>div{display:flex;gap:8px;flex-wrap:wrap}.portal-code-link{padding:8px 10px;border-radius:9px;background:#0b1f33;color:#fff;font-size:12px;font-weight:800}.portal-code-link:hover{background:var(--gold)}
+.contact-dark-item{align-items:center}.contact-dark-icon{align-self:center}.contact-dark-item a.phone-black,.contact-dark-item .phone-black{background:#050505;padding:4px 8px;border-radius:8px}
+.contact-agenda-section{background:#050505;color:#fff;padding:72px 0}.contact-agenda-wrap{max-width:980px}.contact-agenda-head{display:flex;gap:22px;align-items:center;margin-bottom:30px}.contact-agenda-head img{width:92px;height:70px;object-fit:contain;background:#050505}.contact-agenda-head span{color:var(--gold);font-size:12px;font-weight:900;letter-spacing:1.1px}.contact-agenda-head h2{font-size:clamp(30px,4vw,48px);line-height:1.1;margin:4px 0;color:#fff}.contact-agenda-head p{color:#cfd4d8}.contact-agenda-form{background:#0d0d0d;border:1px solid rgba(198,161,91,.25);border-radius:22px;padding:28px}.contact-agenda-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.contact-agenda-form label{display:grid;gap:7px;color:#fff;font-weight:800}.contact-agenda-form input,.contact-agenda-form select,.contact-agenda-form textarea{background:#161616;color:#fff;border:1px solid #2a2a2a;border-radius:11px;padding:13px 14px}.contact-agenda-form option{color:#111;background:#fff}.contact-calendar-block{margin:22px 0}.contact-calendar-title{display:block;font-weight:900;margin-bottom:11px}.contact-date-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:9px}.contact-date-button{border:1px solid #252525;background:#000;color:#fff;border-radius:12px;padding:10px 5px;min-height:64px;cursor:pointer;display:grid;place-items:center;gap:0}.contact-date-button small{font-size:10px;color:#aaa;text-transform:uppercase}.contact-date-button strong{font-size:18px}.contact-date-button:hover,.contact-date-button.active{border-color:var(--gold);background:var(--gold);color:#111}.contact-date-button.active small{color:#2a210e}.contact-time-row textarea{min-height:90px}.contact-agenda-submit{width:100%;margin-top:20px}.contact-agenda-confirm{margin-top:16px;padding:15px;border-radius:12px;background:#122617;color:#d9f5df}.contact-agenda-confirm strong{display:block}
+.blog-real-grid{align-items:stretch}.blog-link-card{display:block}.blog-agenda-cta{margin-top:34px;background:#0b1f33;color:#fff;border-radius:22px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:22px}.blog-agenda-cta p{color:#d5dde5}.blog-article-shell{max-width:850px}.blog-article-kicker{color:var(--gold);font-weight:900;letter-spacing:1px;font-size:12px}.blog-article-shell h1{font-size:clamp(36px,5vw,58px);line-height:1.05;color:var(--navy);margin:8px 0 18px}.blog-article-lead{font-size:19px;color:#596773;text-align:justify}.blog-article-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.maintenance-main{background:#f6f7f9}.maintenance-card{max-width:760px;margin:auto;text-align:center;padding:54px 28px;background:#fff;border:1px solid #e2e7eb;border-radius:24px;box-shadow:0 18px 50px rgba(11,31,51,.08)}.maintenance-card>span{color:var(--gold);font-size:12px;font-weight:900;letter-spacing:1.1px}.maintenance-card h2{font-size:38px;color:var(--navy);margin:6px 0 10px}.maintenance-card p{color:#687682;margin-bottom:20px}
+@media(max-width:900px){.legal-dropdown-general{min-width:0;grid-template-columns:1fr}.menu-item:hover .legal-dropdown-general{display:grid}.hero-content{text-align:center}.hero-content .actions{justify-content:center}.contact-date-grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:650px){.contact-agenda-grid{grid-template-columns:1fr}.contact-date-grid{grid-template-columns:repeat(3,1fr)}.contact-agenda-head{align-items:flex-start}.contact-agenda-head img{width:72px;height:56px}.blog-agenda-cta{align-items:flex-start;flex-direction:column}.vanessa-photo-slot{margin-left:auto;margin-right:auto}.cigsa-partner-title{text-align:center}}
+
+/* Agenda independiente restaurada */
+.agenda-office-brand-black{
+  background:#050505 !important;
+}
+.agenda-office-brand-black img{
+  background:#050505 !important;
+}
+
+/* ===== TEXTOS JUSTIFICADOS ===== */
+/* Justifica los textos de contenido sin afectar títulos, menús, botones ni formularios. */
+main p,
+main li,
+main .contact-dark-item span,
+main .legal-service-card p,
+main .legal-service-card li,
+main .portal-summary-card span,
+main .portal-timeline-item p,
+main .portal-document-item small,
+main .portal-invoice-row small,
+main .agenda-info-card p,
+main .agenda-payment-row p,
+main .blog-card p,
+main .property-card p,
+main .section-title p,
+main .cigsa-purpose-card p,
+main .cigsa-values p,
+main .cigsa-partner p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+@media (max-width: 650px) {
+  main p,
+  main li,
+  main .contact-dark-item span,
+  main .legal-service-card p,
+  main .legal-service-card li,
+  main .portal-summary-card span,
+  main .portal-timeline-item p,
+  main .portal-document-item small,
+  main .portal-invoice-row small,
+  main .agenda-info-card p,
+  main .agenda-payment-row p,
+  main .blog-card p,
+  main .property-card p,
+  main .section-title p,
+  main .cigsa-purpose-card p,
+  main .cigsa-values p,
+  main .cigsa-partner p {
+    text-align: justify;
+  }
+}
+
+/* ===== AJUSTES FINALES SERVICIOS LEGALES ===== */
+.legal-document-page .legal-card-number,
+.legal-document-page .legal-index-card span{
+  background:#000 !important;
+}
+
+.legal-document-page .section-title h2,
+.legal-document-page .section-title p,
+.legal-document-page .legal-index-card,
+.legal-document-page .legal-index-card strong,
+.legal-document-page .legal-premium-card-head h2,
+.legal-document-page .legal-premium-card h3,
+.legal-document-page .legal-card-description,
+.legal-document-page .legal-service-row,
+.legal-document-page .legal-service-row-sub{
+  color:#000 !important;
+}
+
+/* ===== SECCIONES TEMPORALMENTE EN MANTENIMIENTO ===== */
+.public-maintenance-main{
+  min-height:58vh;
+  display:grid;
+  align-items:center;
+  background:#f5f6f7;
+  padding:60px 0;
+}
+.public-maintenance-card{
+  max-width:720px;
+  margin:0 auto;
+  padding:54px 34px;
+  text-align:center;
+  background:#fff;
+  border:1px solid #e2e5e8;
+  border-radius:24px;
+  box-shadow:0 16px 42px rgba(0,0,0,.07);
+}
+.public-maintenance-card .maintenance-label{
+  display:inline-block;
+  margin-bottom:10px;
+  color:var(--gold-dark);
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+.public-maintenance-card h1{
+  margin:0 0 12px;
+  color:#000;
+  font-size:clamp(30px,5vw,46px);
+}
+.public-maintenance-card p{
+  max-width:560px;
+  margin:0 auto 24px;
+  color:#333;
+  text-align:center !important;
+}
+@media(max-width:650px){
+  .public-maintenance-main{padding:35px 0}
+  .public-maintenance-card{padding:36px 22px;border-radius:18px}
+}
+
+/* ===== VANESSA HERRERA - DISEÑO RESTAURADO ===== */
+.cigsa-partner-premium{
+  grid-template-columns:.32fr .68fr;
+}
+.cigsa-partner-title{
+  text-align:left !important;
+}
+.cigsa-partner-copy,
+.cigsa-partner-copy p{
+  text-align:justify !important;
+  text-justify:inter-word;
+  hyphens:auto;
+}
+@media(max-width:900px){
+  .cigsa-partner-premium{
+    grid-template-columns:1fr;
+  }
+}
+
+/* ===== VALORES Y PRINCIPIOS - FONDO NEGRO ===== */
+.cigsa-values-section{
+  background:#050505 !important;
+  border-radius:22px;
+  padding:38px 34px !important;
+  margin:28px 0 34px;
+  border:1px solid rgba(198,161,91,.28);
+  box-shadow:0 16px 40px rgba(0,0,0,.12);
+}
+
+.cigsa-values-section .section-title h2,
+.cigsa-values-section .section-title p{
+  color:#fff !important;
+}
+
+.cigsa-values-section .section-title p{
+  text-align:justify !important;
+}
+
+.cigsa-values-section .cigsa-value-card{
+  background:#050505 !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+  box-shadow:none !important;
+}
+
+.cigsa-values-section .cigsa-value-card h3,
+.cigsa-values-section .cigsa-value-card p{
+  color:#fff !important;
+}
+
+.cigsa-values-section .cigsa-value-card p{
+  text-align:justify !important;
+}
+
+.cigsa-values-section .cigsa-value-card > span{
+  background:#000 !important;
+  color:var(--gold) !important;
+  border:1px solid rgba(198,161,91,.4);
+}
+
+@media(max-width:650px){
+  .cigsa-values-section{
+    padding:26px 18px !important;
+    border-radius:18px;
+  }
+}
+
+/* ===== CORRECCION FINAL: MISION/VISION NEGRAS Y VALORES COMO ANTES ===== */
+
+/* Misión y Visión: mismo diseño, pero fondo negro */
+.cigsa-purpose-card,
+.cigsa-purpose-card:nth-child(2){
+  background:#050505 !important;
+}
+
+/* Valores y Principios: volver al diseño claro original */
+.cigsa-values-section{
+  background:transparent !important;
+  border:0 !important;
+  border-radius:0 !important;
+  padding:0 !important;
+  margin-bottom:52px !important;
+  box-shadow:none !important;
+}
+
+.cigsa-values-section .section-title h2{
+  color:var(--navy) !important;
+}
+
+.cigsa-values-section .section-title p{
+  color:#687580 !important;
+  text-align:justify !important;
+}
+
+.cigsa-values-section .cigsa-value-card{
+  background:#fff !important;
+  border:1px solid #e1e6eb !important;
+  box-shadow:0 10px 28px rgba(11,31,51,.04) !important;
+}
+
+.cigsa-values-section .cigsa-value-card h3{
+  color:var(--navy) !important;
+}
+
+.cigsa-values-section .cigsa-value-card p{
+  color:#687580 !important;
+  text-align:justify !important;
+}
+
+/* Solo los números con fondo negro, como en Servicios Legales */
+.cigsa-values-section .cigsa-value-card > span{
+  background:#000 !important;
+  color:var(--gold) !important;
+  border:0 !important;
+}

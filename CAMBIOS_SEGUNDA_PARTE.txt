@@ -1,0 +1,17 @@
+Cambios aplicados:
+- Inicio centrado.
+- Investigación reordenada: Fundación antes de Arrendamiento.
+- MISIÓN, VISIÓN y VALORES en mayúsculas; textos justificados.
+- Espacio visual preparado para foto de Vanessa Herrera.
+- Portal Cliente separado del menú CIGSA y recuperación de código por correo/WhatsApp.
+- Servicios Legales con menú general de accesos directos y botón Agendar cita en todos los servicios.
+- Blog actualizado con contenido y botones Agendar cita.
+- Agenda fusionada con Contáctenos.
+- Agenda en fondo negro con fechas visibles en botones negros y varios tipos de cita.
+- Teléfonos visibles con +507 y números destacados en negro en Contacto.
+- Dirección normalizada al español.
+- Iconos de contacto centrados con su información y texto superior reducido.
+- Nuevos Proyectos marcado como sección en mantenimiento.
+- Compatibilidad con la URL antigua agenda.html mediante redirección.
+
+Pendiente externo: sustituir el espacio VH por la fotografía real de Vanessa Herrera cuando sea proporcionada.
