@@ -1465,3 +1465,525 @@ main .cigsa-partner p {
   color:var(--gold) !important;
   border:0 !important;
 }
+
+
+/* =========================================================
+   REVISIÓN RESPONSIVE FINAL CIGSA
+   Ajustes exclusivos para tablet y móvil.
+   ========================================================= */
+@media (max-width: 900px){
+
+  html,body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+  }
+
+  body{
+    -webkit-text-size-adjust:100%;
+  }
+
+  main,
+  section,
+  header,
+  footer{
+    max-width:100%;
+  }
+
+  img,
+  svg,
+  video,
+  iframe{
+    max-width:100%;
+    height:auto;
+  }
+
+  .container{
+    width:min(100% - 28px,1180px);
+  }
+
+  /* Encabezado */
+  .topbar-inner{
+    gap:8px;
+  }
+
+  .topbar-left,
+  .topbar-right{
+    min-width:0;
+  }
+
+  .topbar-left a{
+    overflow-wrap:anywhere;
+  }
+
+  .nav{
+    gap:8px;
+  }
+
+  .brand-with-official-logo{
+    min-width:0 !important;
+    max-width:calc(100% - 54px);
+  }
+
+  .brand-copy{
+    min-width:0;
+  }
+
+  .brand-name,
+  .brand-copy small{
+    overflow-wrap:normal;
+    word-break:normal;
+  }
+
+  .menu{
+    max-height:calc(100dvh - 72px);
+    overflow-y:auto;
+    overscroll-behavior:contain;
+  }
+
+  .dropdown,
+  .legal-dropdown-general{
+    width:100%;
+    min-width:0 !important;
+    max-width:100%;
+  }
+
+  /* Formularios y controles */
+  input,
+  select,
+  textarea,
+  button{
+    max-width:100%;
+  }
+
+  input,
+  select,
+  textarea{
+    font-size:16px;
+  }
+
+  .btn,
+  button,
+  .menu-item>a,
+  .dropdown a{
+    min-height:44px;
+  }
+
+  /* Inicio */
+  .hero{
+    min-height:auto;
+  }
+
+  .hero-content{
+    width:100%;
+    max-width:100%;
+  }
+
+  .hero h1,
+  .premium-banner h2,
+  .section-title h2{
+    overflow-wrap:normal;
+    word-break:normal;
+  }
+
+  .search-grid{
+    min-width:0;
+  }
+
+  /* Tarjetas y grillas */
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .stats-grid,
+  .search-grid,
+  .form-grid{
+    min-width:0;
+  }
+
+  .card,
+  .panel,
+  .property-card,
+  .blog-card,
+  .testimonial,
+  .legal-service-card{
+    min-width:0;
+  }
+
+  /* Servicios legales */
+  .legal-index-grid,
+  .legal-premium-list,
+  .legal-service-rows{
+    min-width:0;
+  }
+
+  .legal-premium-card{
+    min-width:0;
+    overflow:hidden;
+  }
+
+  .legal-premium-card-head{
+    min-width:0;
+  }
+
+  .legal-premium-card-head > div:last-child{
+    min-width:0;
+  }
+
+  .legal-premium-card-head h2{
+    overflow-wrap:anywhere;
+  }
+
+  .legal-service-row{
+    min-width:0;
+  }
+
+  .legal-service-row span:last-child{
+    min-width:0;
+    overflow-wrap:anywhere;
+  }
+
+  /* Misión, Visión, Valores */
+  .cigsa-purpose-grid,
+  .cigsa-values-grid{
+    min-width:0;
+  }
+
+  .cigsa-purpose-card{
+    min-width:0;
+    background:#050505 !important;
+  }
+
+  .cigsa-purpose-card p,
+  .cigsa-value-card p,
+  .cigsa-partner-copy p{
+    text-align:justify !important;
+    text-justify:inter-word;
+  }
+
+  .cigsa-values-section{
+    min-width:0;
+  }
+
+  .cigsa-value-card{
+    min-width:0;
+  }
+
+  .cigsa-partner-premium{
+    min-width:0;
+    grid-template-columns:1fr !important;
+  }
+
+  .cigsa-partner-title{
+    text-align:left !important;
+  }
+
+  /* Agenda */
+  .agenda-layout,
+  .agenda-left,
+  .agenda-calendar-card,
+  .agenda-info-card{
+    min-width:0;
+  }
+
+  .agenda-map-actions .btn{
+    min-height:46px;
+  }
+
+  /* Portal / mantenimiento */
+  .portal-login-card,
+  .portal-dashboard,
+  .portal-summary-grid,
+  .portal-main-grid,
+  .public-maintenance-card{
+    min-width:0;
+    max-width:100%;
+  }
+
+  /* Flotantes */
+  .whatsapp-float{
+    right:12px;
+    bottom:12px;
+  }
+
+  .back-top{
+    right:16px;
+    bottom:76px;
+  }
+}
+
+@media (max-width: 650px){
+
+  .container{
+    width:min(100% - 22px,1180px);
+  }
+
+  /* Barra superior */
+  .topbar-inner{
+    display:grid;
+    grid-template-columns:1fr;
+    align-items:start;
+  }
+
+  .topbar-left{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:3px;
+  }
+
+  .topbar-right{
+    width:100%;
+    margin-left:0;
+    justify-content:space-between;
+    gap:8px;
+  }
+
+  .socials{
+    flex-wrap:wrap;
+  }
+
+  .language-flags{
+    margin-left:auto;
+  }
+
+  /* Navegación */
+  .nav{
+    min-height:60px;
+  }
+
+  .brand-official-logo{
+    width:44px;
+    height:38px;
+  }
+
+  .brand-with-official-logo .brand-name{
+    font-size:16px;
+  }
+
+  .brand-with-official-logo small{
+    font-size:8.5px;
+  }
+
+  .mobile-btn{
+    width:40px;
+    height:40px;
+  }
+
+  .menu{
+    padding:8px 12px 16px;
+  }
+
+  .menu-item>a{
+    padding:11px 3px;
+  }
+
+  .dropdown{
+    padding-left:10px;
+  }
+
+  /* Inicio */
+  section{
+    padding:42px 0;
+  }
+
+  .hero{
+    padding:44px 0 50px;
+  }
+
+  .hero h1{
+    font-size:clamp(36px,11vw,48px);
+    line-height:1.04;
+    letter-spacing:-.8px;
+  }
+
+  .hero p{
+    font-size:15px;
+    line-height:1.6;
+  }
+
+  .actions{
+    display:grid;
+    grid-template-columns:1fr;
+    width:100%;
+  }
+
+  .actions .btn{
+    width:100%;
+  }
+
+  .search-box{
+    padding:13px;
+    border-radius:16px;
+  }
+
+  .search-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  /* Tarjetas generales */
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .stats-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  .card,
+  .panel,
+  .testimonial,
+  .legal-service-card{
+    padding:18px;
+  }
+
+  .premium-banner{
+    padding:22px;
+    border-radius:18px;
+  }
+
+  /* Legal */
+  .legal-service-index{
+    padding-top:30px;
+  }
+
+  .legal-index-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  .legal-premium-card{
+    padding:17px !important;
+  }
+
+  .legal-premium-card-head{
+    align-items:center !important;
+    gap:10px;
+  }
+
+  .legal-card-number{
+    width:42px;
+    height:42px;
+    flex:0 0 42px;
+  }
+
+  .legal-premium-card-head h2{
+    font-size:21px !important;
+  }
+
+  .legal-service-rows{
+    grid-template-columns:1fr !important;
+  }
+
+  .legal-card-agenda{
+    width:100%;
+  }
+
+  /* Cigsa */
+  .cigsa-story-card,
+  .cigsa-partner-premium{
+    padding:18px !important;
+  }
+
+  .cigsa-purpose-grid,
+  .cigsa-values-grid,
+  .cigsa-bottom-links{
+    grid-template-columns:1fr !important;
+  }
+
+  .cigsa-purpose-card{
+    padding:20px !important;
+  }
+
+  .cigsa-purpose-card h2{
+    font-size:26px !important;
+  }
+
+  .cigsa-purpose-letter{
+    font-size:92px;
+  }
+
+  .cigsa-value-card{
+    padding:18px !important;
+  }
+
+  .cigsa-partner-title h2{
+    font-size:26px !important;
+  }
+
+  /* El formato justificado se conserva en celular */
+  main p,
+  main li,
+  .cigsa-partner-copy p,
+  .cigsa-purpose-card p,
+  .cigsa-value-card p{
+    text-align:justify !important;
+    text-justify:inter-word;
+    hyphens:auto;
+  }
+
+  /* Mantenimiento */
+  .public-maintenance-main{
+    padding:32px 0;
+  }
+
+  .public-maintenance-card{
+    padding:32px 18px;
+    border-radius:17px;
+  }
+
+  /* Footer y botones flotantes */
+  footer{
+    padding:24px 0;
+  }
+
+  .whatsapp-float{
+    width:52px;
+    height:52px;
+  }
+
+  .back-top{
+    width:40px;
+    height:40px;
+    bottom:72px;
+  }
+}
+
+@media (max-width: 390px){
+
+  .container{
+    width:min(100% - 18px,1180px);
+  }
+
+  .topbar-right{
+    align-items:center;
+  }
+
+  .socials{
+    gap:4px;
+  }
+
+  .socials a{
+    width:27px;
+    height:27px;
+  }
+
+  .language-flags .language-select{
+    min-width:82px;
+    max-width:96px;
+    font-size:10.5px;
+  }
+
+  .brand-copy small{
+    display:none;
+  }
+
+  .hero h1{
+    font-size:35px;
+  }
+
+  .section-title h2{
+    font-size:28px;
+  }
+
+  .legal-premium-card-head h2{
+    font-size:20px !important;
+  }
+}

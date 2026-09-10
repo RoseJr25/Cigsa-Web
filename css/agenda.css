@@ -24,3 +24,58 @@
   .agenda-payment-row{gap:10px}
   .agenda-submit{min-height:48px}
 }
+
+
+/* ===== REVISIÓN MÓVIL FINAL DE AGENDA ===== */
+@media(max-width:850px){
+  .agenda-layout{
+    grid-template-columns:1fr !important;
+    gap:16px;
+  }
+  .agenda-office-photo,
+  .agenda-info-card,
+  .agenda-calendar-card{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+  }
+}
+@media(max-width:600px){
+  .agenda-cigsa-page section{
+    padding:34px 0;
+  }
+  .agenda-office-brand{
+    min-height:160px !important;
+    padding:20px !important;
+  }
+  .agenda-office-brand img{
+    width:min(170px,62%) !important;
+  }
+  .agenda-office-brand strong{
+    font-size:19px;
+  }
+  .agenda-office-brand span{
+    font-size:13px;
+    text-align:center;
+  }
+  .agenda-info-card,
+  .agenda-calendar-card{
+    padding:17px !important;
+    border-radius:16px;
+  }
+  .agenda-form-grid{
+    grid-template-columns:1fr !important;
+  }
+  .agenda-map-actions{
+    display:grid;
+    grid-template-columns:1fr !important;
+  }
+  .agenda-map-actions .btn{
+    width:100%;
+  }
+  .agenda-calendar-card input,
+  .agenda-calendar-card select,
+  .agenda-calendar-card textarea{
+    font-size:16px;
+  }
+}

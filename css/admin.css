@@ -561,3 +561,41 @@
   .admin-summary-card strong{margin-top:0}
   .admin-row-actions{grid-template-columns:1fr}
 }
+
+
+/* ===== REVISIÓN MÓVIL FINAL ADMIN ===== */
+@media(max-width:650px){
+  .admin-login-card,
+  .admin-properties-card,
+  .admin-property-editor{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+  }
+  .admin-login-intro,
+  .admin-login-form{
+    padding:19px;
+  }
+  .admin-dashboard-top h1{
+    font-size:30px;
+  }
+  .admin-top-actions{
+    width:100%;
+  }
+  .admin-properties-table,
+  .admin-properties-table tbody,
+  .admin-properties-table tr{
+    width:100%;
+    max-width:100%;
+  }
+  .admin-properties-table td{
+    min-width:0;
+  }
+  .admin-property-name{
+    min-width:0;
+  }
+  .admin-property-name strong,
+  .admin-property-name small{
+    overflow-wrap:anywhere;
+  }
+}
