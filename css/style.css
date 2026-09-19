@@ -2027,3 +2027,113 @@ main .cigsa-partner p {
     text-align:justify !important;
   }
 }
+
+
+/* ===== AJUSTES TERCERA PARTE ===== */
+.hero.hero-compact{min-height:560px}
+.hero.hero-compact .hero-content{padding:8px 0}
+.hero.hero-compact .hero-label{display:none!important}
+.hero.hero-compact h1{margin-top:0}
+.top-social,.top-social:hover,.top-social:focus,.top-social:active{color:#fff!important;background:transparent!important;box-shadow:none!important;outline:none!important}
+.icon,.legal-icon,.legal-card-number,.legal-index-card span,.btn-dark,.portal-code-link{background:#050505!important;background-image:none!important;color:#fff!important}
+.btn-dark{border-color:#050505!important}
+.cigsa-home-portal-card{background:#fff;border:1px solid rgba(11,31,51,.08);border-radius:var(--radius);padding:28px;display:grid;grid-template-columns:1.3fr .7fr;gap:24px;align-items:center;box-shadow:0 14px 40px rgba(11,31,51,.08)}
+.cigsa-home-portal-card h3{font-size:28px;color:var(--navy);margin-bottom:10px}
+.cigsa-home-portal-card p{color:var(--muted);text-align:justify}
+.cigsa-home-portal-features{display:grid;gap:10px}
+.cigsa-home-portal-features div{background:#f7f7f7;border:1px solid #ececec;border-radius:14px;padding:14px 16px;text-align:justify;color:#4c5964}
+.cigsa-home-portal-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+main .section-title p,main .card p,main .panel p,main .legal-service-card p,main .testimonial p,main .property-body p{text-align:justify}
+main .section-title span{letter-spacing:1px}
+.featured-section .section-title span{color:var(--gold)}
+@media(max-width:900px){.cigsa-home-portal-card{grid-template-columns:1fr}.hero.hero-compact{min-height:500px}}
+@media(max-width:620px){.hero.hero-compact{min-height:460px}.cigsa-home-portal-card{padding:22px}.cigsa-home-portal-card h3{font-size:24px}}
+
+
+/* ===== EFECTO HOVER DORADO ===== */
+/* Botones negros: al pasar el mouse cambian a dorado */
+.btn-dark,
+.portal-code-link,
+.contact-date-button{
+  transition:background-color .22s ease, border-color .22s ease, color .22s ease, transform .22s ease, box-shadow .22s ease;
+}
+
+.btn-dark:hover,
+.btn-dark:focus-visible,
+.portal-code-link:hover,
+.portal-code-link:focus-visible{
+  background:var(--gold) !important;
+  background-image:none !important;
+  border-color:var(--gold) !important;
+  color:#111 !important;
+  transform:translateY(-2px);
+  box-shadow:0 10px 22px rgba(198,161,91,.24);
+}
+
+/* Redes sociales del encabezado */
+.top-social{
+  border-radius:50%;
+  transition:background-color .22s ease, color .22s ease, transform .22s ease !important;
+}
+
+.top-social:hover,
+.top-social:focus-visible{
+  background:var(--gold) !important;
+  color:#111 !important;
+  transform:translateY(-2px);
+  box-shadow:0 7px 16px rgba(198,161,91,.24) !important;
+}
+
+/* Redes sociales circulares que aparezcan dentro del sitio */
+.social-icon{
+  transition:background .22s ease, color .22s ease, transform .22s ease, box-shadow .22s ease !important;
+}
+
+.social-icon:hover,
+.social-icon:focus-visible{
+  background:var(--gold) !important;
+  color:#111 !important;
+  border-color:var(--gold) !important;
+  transform:translateY(-3px);
+  box-shadow:0 10px 24px rgba(198,161,91,.28);
+}
+
+/* Mantener el SVG visible cuando el fondo pasa a dorado */
+.top-social:hover svg,
+.top-social:focus-visible svg,
+.social-icon:hover svg,
+.social-icon:focus-visible svg{
+  color:#111 !important;
+  fill:currentColor;
+}
+
+/* Botones negros del calendario de cita */
+.contact-date-button:hover,
+.contact-date-button:focus-visible,
+.contact-date-button.active{
+  background:var(--gold) !important;
+  border-color:var(--gold) !important;
+  color:#111 !important;
+}
+
+
+/* ===== CORRECCIÓN HOVER AGENDAR CITA - PORTAL CLIENTE ===== */
+.cigsa-home-portal-actions .btn-light{
+  border-color:#0b1f33 !important;
+  color:#0b1f33 !important;
+  background:#fff !important;
+  transition:background-color .22s ease, border-color .22s ease, color .22s ease, transform .22s ease, box-shadow .22s ease;
+}
+.cigsa-home-portal-actions .btn-light:hover,
+.cigsa-home-portal-actions .btn-light:focus-visible{
+  background:var(--gold) !important;
+  border-color:var(--gold) !important;
+  color:#111 !important;
+  transform:translateY(-2px);
+  box-shadow:0 10px 22px rgba(198,161,91,.24);
+}
+
+/* ===== BIENES RAICES EN MANTENIMIENTO ===== */
+.home-realestate-maintenance{
+  margin:0 auto;
+}
