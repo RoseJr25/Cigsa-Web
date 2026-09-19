@@ -1265,7 +1265,7 @@ main .cigsa-values p,
 main .cigsa-partner p {
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto;
+  hyphens:none;
 }
 
 @media (max-width: 650px) {
@@ -1362,7 +1362,7 @@ main .cigsa-partner p {
 .cigsa-partner-copy p{
   text-align:justify !important;
   text-justify:inter-word;
-  hyphens:auto;
+  hyphens:none;
 }
 @media(max-width:900px){
   .cigsa-partner-premium{
@@ -1916,7 +1916,7 @@ main .cigsa-partner p {
   .cigsa-value-card p{
     text-align:justify !important;
     text-justify:inter-word;
-    hyphens:auto;
+    hyphens:none;
   }
 
   /* Mantenimiento */
@@ -2136,4 +2136,50 @@ main .section-title span{letter-spacing:1px}
 /* ===== BIENES RAICES EN MANTENIMIENTO ===== */
 .home-realestate-maintenance{
   margin:0 auto;
+}
+
+
+/* ===== TEXTO JUSTIFICADO SIN GUIONES AUTOMATICOS ===== */
+/* Evita que el navegador corte palabras con guiones al justificar. */
+main p,
+main li,
+main .section-title p,
+main .card p,
+main .panel p,
+main .legal-service-card p,
+main .legal-service-card li,
+main .legal-card-description,
+main .legal-service-row,
+main .testimonial p,
+main .property-body p,
+main .blog-card p,
+main .cigsa-purpose-card p,
+main .cigsa-value-card p,
+main .cigsa-partner-copy p,
+main .cigsa-home-portal-card p,
+main .cigsa-home-portal-features div,
+main .agenda-info-card p,
+main .agenda-payment-row p,
+main .public-maintenance-card p {
+  text-align:justify !important;
+  text-justify:inter-word;
+  hyphens:none !important;
+  -webkit-hyphens:none !important;
+  -ms-hyphens:none !important;
+  word-break:normal !important;
+  overflow-wrap:normal !important;
+}
+
+/* También evita cortes automáticos en textos cortos de contenido. */
+main .legal-service-row span,
+main .contact-dark-item span,
+main .portal-summary-card span,
+main .portal-timeline-item p,
+main .portal-document-item small,
+main .portal-invoice-row small {
+  hyphens:none !important;
+  -webkit-hyphens:none !important;
+  -ms-hyphens:none !important;
+  word-break:normal !important;
+  overflow-wrap:normal !important;
 }
